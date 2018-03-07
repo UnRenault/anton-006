@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson #3</title>
+</head>
+<body>
+<!-- 	<input type="text"><br>
+	<input type="radio"><br>
+	<input type="checkbox"><br>
+	<hr> -->
+	<label for="email">Ваш email</label>
+	<input type="email" id="email"><br>
+<!-- задать текст и id для емаил -->
+<label for="password">Пароль</label>
+	<input type="password" id="password"><br>
+	<label for="color">цвет</label>
+	<input type="color" id="color"><br>
+	<label for="date">дата</label>
+	<input type="date" id="date"><br>
+	<!-- привязка и создание кликабельных элементов -->
+	<hr>
+	<input type="text"><br>
+	<input type="text"><br>
+	<hr>
+	<form>
+	 <input type="text" placeholder="какой то текст" disabled=""><br>
+	 <!-- отключает окно -->
+	 <input type="text" placeholder="какой то текст" required=""><br>
+	 <!-- атрибут что бы не мог отправить пустую форму -->
+	 <input type="submit"><br>
+	</form>
+	<hr>
+	<!-- выпадающий список -->
+	<h1>Lorem ipsum.</h1>
+	<hr>
+	<select name="city">
+		<!-- name - то что будет видеть сервер -->
+		<option value="1">Запорожье</option>
+		<option value="2">Киев</option>
+		<option value="3">Суммы</option>
+		<option value="4">Харьков</option>
+	</select>
+	<hr>
+	<button>обычная кнопка</button>
+	<hr>
+	<textarea name="comment" id="" cols="70" rows="20">	
+	</textarea>
+	<hr>
+	<form action="https://www.google.com" method="post">
+		<!-- post - отправить   
+			get - получить 
+			action = ссылка куда отправлять или откуда получать -->
+		<p>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="emailFiled">
+		</p>
+		<p>
+			<label for="pass">Password</label>
+			<input type="password" id="pass" name="passFiled">
+		</p>
+		<p>
+			<input type="submit" value="Войти">
+		</p>
+	</form>
+</body>
+</html>
