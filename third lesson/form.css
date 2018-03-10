@@ -71,4 +71,5 @@ textarea, input {
 
 #messageField {
 	margin: -19px 0 5px 0;
+	min-height: 210px;
 }

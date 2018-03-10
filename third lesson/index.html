@@ -6,34 +6,49 @@
 	<link rel="stylesheet" href="form.css">
 </head>
 <body>
-	<h1 style="text-align: center;">Регистрация</h1>
-	<p style="text-align: center;">*Все поля обязательны к заполнению</p>
 	<form action="http://maximumstart.herokuapp.com/register" class="form" method="GET">
-		<p>
-			<label for="name">Имя</label>
-			<input type="text" required name="name" id="name"><br>
-			<label for="surname">Фамилия</label>
-			<input type="text" required name="surname" id="surname"><br>
-			<label for="phone">Телефон</label>
-			<input type="text" required name="phone" id="phone"><br>
-			<label for="color">Любимый цвет</label>
-			<input type="color" name="color" id="color" required><br>
-			<label for="date">Сегодняшнее число</label>
-			<input type="date" name="date" id="date" required=><br>
-			<label for="password">Пароль</label>
-			<input type="password" required id="password" name="password"><br>
+	<h1>Регистрация</h1>
+	<p>*Все поля обязательны к заполнению</p>
+			<p>
+				<label for="name-field">Имя</label>
+				<input type="text" required name="name" id="name-field">
+			</p>
+			<p>
+				<label for="surname-field">Фамилия</label>
+				<input type="text" required name="surname" id="surname-field">
+			</p>
+			<p>
+				<label for="phone-field">Телефон</label>
+				<input type="text" required name="phone" id="phone-field">
+			</p>
+			<p>
+				<label for="color-field">Любимый цвет</label>
+				<input type="color" name="color" id="color-field" required>
+			</p>
+			<p>
+				<label for="date-field">Сегодняшнее число</label>
+				<input type="date" name="date" id="date-field" required>
+			</p>
+			<p>
+				<label for="password-field">Пароль</label>
+				<input type="password" required id="password-field" name="password">
+			</p>
 			
-			<input type="radio" value="Мальчик" name="gender" id="1"><br>
-			<label style="text-align: center;" for="1">Мальчик</label>
-			<input type="radio" value="Девочка" name="gender" id="2"><br>
-			<label style="text-align: center;" for="2">Девочка</label>
-			<input type="radio" value="Не определился" name="gender"  id="3"><br>
-			<label style="text-align: center;" for="3">Не определился</label>
+			<p>
+				<input type="radio" value="Мальчик" name="gender" id="1">
+				<label for="1">Мальчик</label>
+				<input type="radio" value="Девочка" name="gender" id="2">
+				<label for="2">Девочка</label>
+				<input type="radio" value="Не определился" name="gender"  id="3">
+				<label for="3">Не определился</label>
+			</p>
 
-			<label for="message">Сообщение</label>
-			<textarea name="message" id="message" required cols="30" rows="10"></textarea><br>
-		</p>
-		<p><button>Отправить</button><br></p>
+			<p>
+				<label for="message-field">Сообщение</label>
+				<textarea name="message" id="message-field" required cols="30" rows="10"></textarea>
+			</p>	
+		<p><input type="submit" id="submit-field" value="Отправить">
+			</p>
 	</form>
 </body>
 </html>
