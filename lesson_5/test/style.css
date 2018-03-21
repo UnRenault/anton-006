@@ -1,0 +1,25 @@
+div{
+	background-color: green;
+}
+
+p{
+	color: #3b3663;
+}
+.list {
+color: red;
+}
+
+.list-item{
+	color: black;
+}
+
+.item-link{
+	color: black;
+}
+
+#test {
+color: blue;
+}
+.second {
+	background-color: gray;
+}
