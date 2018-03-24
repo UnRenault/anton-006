@@ -21,6 +21,15 @@
 /*
 	Ниже можно начинать писать свои стили.
 */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
 .header {
 	background-color: #e5e5e5;
 	height: 230px;
@@ -57,6 +66,7 @@
 
 .article__link {
 	color: #000;
+	border: 1px dashed transparent;
 }
 
 .article__more {
