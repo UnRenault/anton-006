@@ -1,0 +1,15 @@
+* {
+	font-family: 'Playfair Display', serif;
+}
+@font-face{
+	font-family: Ubuntu-Regular;
+	src: url(Ubuntu-Regular.ttf);
+}
+
+.category-link, .comment-link {
+	font-family: Ubuntu-Regular ;
+}
+
+.logo {
+	font-family: 'Inconsolata', monospace;
+}

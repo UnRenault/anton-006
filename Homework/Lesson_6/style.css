@@ -1,0 +1,64 @@
+/*
+	Служебные стили. Тут ничего не стоит изменять!
+*/
+
+* {
+	font-family: sans-serif;
+}
+
+.article__more {
+	text-decoration: none;
+}
+
+.article {
+	line-height: 27px;
+}
+
+.header {
+	text-align: center;
+}
+
+/*
+	Ниже можно начинать писать свои стили.
+*/
+.header {
+	background-color: #e5e5e5;
+	height: 230px;
+	width: 100%;
+	min-height: 150px;
+	padding: 40px 0 40px 0;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	padding: 15px;
+	background-color: #e5e5e5;
+	border-top: 1px solid #000;
+}
+
+.article {
+	height: 185px;
+	margin: 30px;
+	padding: 10px 30px 10px 30px;
+	background-color: #ccc;
+	border: 1px dashed #000;
+
+}
+
+.article__link:hover {
+	color: black;
+	border: 1px dashed #000;
+}
+
+.article__more:hover {
+	border-bottom: 1px dashed #000;
+}
+
+.article__link {
+	color: #000;
+}
+
+.article__more {
+	color: #000;
+}

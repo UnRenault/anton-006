@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'General-font';
+	src: url(Pacifico-Regular.ttf);
+}
+
+*{
+	font-family: 'General-font', 'Arial', 'Times New Roman', sans-serif;
+}
+
+.normal {
+	font-weight: 400;
+	border: dashed;
+	border-color: blue;
+	padding: 6px;
+	font-size: 18px;
+	text-align: center;
+	font-style: italic;
+	line-height: 35px;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	direction: ltr;
+}
+
+.bold {
+	font-weight: 700;
+	border: dashed;
+	border-color: #f80ccb;
+	padding: 6px;
+	font-size: 18px;
+	text-align: right;
+	margin-top: 40px;
+	font-style: italic;
+	line-height: 20px;
+	text-decoration: overline;
+	text-transform: uppercase;
+	direction: rtl;
+}
+
+.bold:hover	{
+	background-color: #f6b20f;
+}
+
+.normal:hover {
+	background-color: #f6b20f;
+}
