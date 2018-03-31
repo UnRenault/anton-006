@@ -1,6 +1,11 @@
+html {
+	box-sizing: border-box;
+}
+
 * {
 	font-family: 'Playfair Display', serif;
 }
+
 @font-face{
 	font-family: Ubuntu-Regular;
 	src: url(Ubuntu-Regular.ttf);
