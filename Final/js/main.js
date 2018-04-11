@@ -11,4 +11,7 @@ $(document).ready(function() {
       loop: true,
       autoHeight:true
   });
+  $('.navbar-toggler').click(function () {
+    $('.h-menu').toggleClass('active');
+  })
 });

@@ -61,13 +61,30 @@ section{
 	width: 100%;
 }
 
-.navbar-toggler {
+nav{
+  position: relative;
+}
+
+.navbar-toggler{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.h-menu.active{
+  display: block;
+  position: absolute;
+  list-style-type: none;
+  background: #fff;
+  padding: 10px;
+  right: 0;
+}
+.navbar-toggler span{
 	width: 20px;
 	height: 2px;
 	background: #fff;
-	position: relative;
-	margin-top: 7px;
-	cursor: pointer;
+  display: block;
 }
 
 .navbar-toggler:before {
@@ -76,7 +93,7 @@ section{
 	height: 2px;
 	background: #fff;
 	position: absolute;
-	top: -7px;
+	top: 8px;
 }
 
 .navbar-toggler:after {
@@ -85,7 +102,7 @@ section{
 	height: 2px;
 	background: #fff;
 	position: absolute;
-	top: 7px;
+	top: 17px;
 }
 
 header {
@@ -290,6 +307,7 @@ h2 {
 }
 .best-projects .item{
   margin-bottom: 24px;
+  display: block;
 }
 .best-projects .item.text{
   max-width: 370px;
@@ -720,4 +738,8 @@ footer {
 
 .contact form{
   margin-top: 1px;
+}
+
+a {
+  text-decoration: none;
 }
